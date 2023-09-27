@@ -1,16 +1,29 @@
-# This is a sample Python script.
+liczba1 = 10
+print(type(liczba1))
 
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+tekst1 = 'informatyka'
+print(type(tekst1))
 
+log1 = True
+print(type(log1))
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+liczba1 = "nbcjdsbndfjhdfuj"
+print(type(liczba1))
 
+liczba2 = 3.14
+print(type(liczba2))
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('Janusz')
+lista1 = ['jan', 56, True, 6.78]
+print(lista1)
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+zbior1 = { 1, 1, 2, 2, 4, 5,}
+print(zbior1)
+
+slownik1 = {"dekadentyzm":"nurt filozoficzny" , "OK":"TAK" , "XD":"śmiech przez łzy"}
+print(type(slownik1["OK"]))
+
+print('frvcvrjmrvh\njvij4vkjv4lk')
+print('frvcvrjmrvh\tjvij4vkjv4lk')
+
+dana = int(input('Podaj liczbe'))
+print(type(dana))
